@@ -1,0 +1,6 @@
+framework module Pods_SyncCoredataAlamofire {
+  umbrella header "Pods-SyncCoredataAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
