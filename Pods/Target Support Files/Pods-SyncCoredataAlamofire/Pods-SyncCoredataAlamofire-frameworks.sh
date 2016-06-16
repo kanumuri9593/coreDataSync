@@ -92,6 +92,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/NSEntityDescription-SYNCPrimaryKey/NSEntityDescription_SYNCPrimaryKey.framework"
   install_framework "$BUILT_PRODUCTS_DIR/NSManagedObject-HYPPropertyMapper/NSManagedObject_HYPPropertyMapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/NSString-HYPNetworking/NSString_HYPNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Sync/Sync.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -103,5 +104,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/NSEntityDescription-SYNCPrimaryKey/NSEntityDescription_SYNCPrimaryKey.framework"
   install_framework "$BUILT_PRODUCTS_DIR/NSManagedObject-HYPPropertyMapper/NSManagedObject_HYPPropertyMapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/NSString-HYPNetworking/NSString_HYPNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Sync/Sync.framework"
 fi

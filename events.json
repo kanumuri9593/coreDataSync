@@ -1,0 +1,63 @@
+[{
+	"$id": "1",
+	"ScheduleDate": "6/7/2016 12:00:00 AM",
+	"GarbageSchedule": "Y",
+	"RecyclingSchedule": "",
+	"Holiday": "",
+	"Event": []
+}, {
+	"$id": "2",
+	"ScheduleDate": "6/9/2016 12:00:00 AM",
+	"GarbageSchedule": "Y",
+	"RecyclingSchedule": "",
+	"Holiday": "",
+	"Event": []
+}, {
+	"$id": "3",
+	"ScheduleDate": "6/10/2016 12:00:00 AM",
+	"GarbageSchedule": "",
+	"RecyclingSchedule": "",
+	"Holiday": "",
+	"Event": [{
+		"$id": "4",
+		"EventID": "126",
+		"Name": "TCS Marathon Edit",
+		"EmailAddress": "t@c.com",
+		"Organization": "Test j",
+		"ContactName": "Test",
+		"ContactEmail": "t@c.com",
+		"ContactPhone": "(234) 523-5235",
+		"PhoneExt": "52352",
+		"EventName": "TCS Marathon Edit",
+		"EventDate": "6/10/2016 12:00:00 AM",
+		"FromTime": "08:00 am",
+		"ToTime": "12:00 pm",
+		"Borough": "Manhattan",
+		"HouseNo": "397",
+		"Street": "FDR Drive",
+		"City": "New York",
+		"State": "NY",
+		"Zip": "10002",
+		"EventPhone": "(245) 345-3453",
+		"Website": "www.nyc.gov",
+		"Description": "Test",
+		"FromDateTime": null,
+		"ToDateTime": null,
+		"Source": null,
+		"FormattedEventDate": null
+	}]
+}, {
+	"$id": "5",
+	"ScheduleDate": "6/11/2016 12:00:00 AM",
+	"GarbageSchedule": "Y",
+	"RecyclingSchedule": "Y",
+	"Holiday": "",
+	"Event": []
+}, {
+	"$id": "6",
+	"ScheduleDate": "6/14/2016 12:00:00 AM",
+	"GarbageSchedule": "Y",
+	"RecyclingSchedule": "",
+	"Holiday": "",
+	"Event": []
+}]

@@ -1,0 +1,51 @@
+[
+  {
+    "Latitude" : 40.7544351,
+    "CategoryDescription" : null,
+    "$id" : "1",
+    "DropOffSiteName" : "BEST BUY - 44TH AND 5TH NY (STORE 1028)",
+    "Location" : "529 5 AVE NEW YORK NY 10017",
+    "Category" : 1,
+    "Longitude" : -73.9796913,
+    "ID" : 124
+  },
+  {
+    "Latitude" : 40.7700779,
+    "CategoryDescription" : null,
+    "$id" : "2",
+    "DropOffSiteName" : "BEST BUY - 62ND AND BROADWAY NY (STORE 1448)",
+    "Location" : "1880 BROADWAY NEW YORK NY 10023",
+    "Category" : 1,
+    "Longitude" : -73.98159200000001,
+    "ID" : 130
+  },
+  {
+    "Latitude" : 40.7798872,
+    "CategoryDescription" : null,
+    "$id" : "3",
+    "DropOffSiteName" : "BEST BUY - 86TH AND LEXINGTN NY (STORE 835)",
+    "Location" : "1280 LEXINGTON AVE NEW YORK NY 10028",
+    "Category" : 1,
+    "Longitude" : -73.9557037,
+    "ID" : 136
+  },
+  {
+    "Latitude" : 40.6838452,
+    "CategoryDescription" : null,
+    "$id" : "4",
+    "DropOffSiteName" : "BEST BUY - ATLANTIC CENTER NY (STORE 2518)",
+    "Location" : "625 ATLANTIC AVE BROOKLYN NY 11217",
+    "Category" : 1,
+    "Longitude" : -73.9754325,
+    "ID" : 92
+  },
+  {
+    "Latitude" : 40.725747,
+    "CategoryDescription" : null,
+    "$id" : "5",
+    "DropOffSiteName" : "BEST BUY - BDWY N OF HOUSTON NY (STORE 609)",
+    "Location" : "622 BROADWAY NEW YORK NY 10012",
+    "Category" : 1,
+    "Longitude" : -73.9959279,
+    "ID" : 121
+  }]
