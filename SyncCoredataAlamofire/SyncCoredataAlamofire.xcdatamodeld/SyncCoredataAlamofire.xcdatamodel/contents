@@ -1,4 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Calendar" representedClassName=".Calendar" syncable="YES">
+        <attribute name="garbageSchedule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="holiday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recyclingSchedule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduleDate" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <relationship name="event" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="calendar" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="DropOff" representedClassName=".DropOff" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="categoryDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dropOffSiteName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationId" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="hyper.remoteKey" value="ID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <userInfo>
+            <entry key="hyper.remoteKey" value="$id"/>
+        </userInfo>
+    </entity>
+    <entity name="Event" representedClassName=".Event" syncable="YES">
+        <attribute name="borough" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <attribute name="eventDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formattedEventDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromDateTill" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="houseNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organization" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneExt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toDateTill" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="calendar" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Calendar" inverseName="event" inverseEntity="Calendar" syncable="YES"/>
+        <userInfo>
+            <entry key="hyper.remoteKey" value="$id"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="Calendar" positionX="-146" positionY="209" width="128" height="133"/>
+        <element name="DropOff" positionX="349" positionY="135" width="128" height="163"/>
+        <element name="Event" positionX="124" positionY="-106" width="128" height="448"/>
+    </elements>
 </model>

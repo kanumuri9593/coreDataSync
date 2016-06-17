@@ -42,8 +42,8 @@
 		12EA03D41D10E45F0030D7B2 /* SyncCoredataAlamofireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncCoredataAlamofireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EA03D81D10E45F0030D7B2 /* SyncCoredataAlamofireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncCoredataAlamofireTests.swift; sourceTree = "<group>"; };
 		12EA03DA1D10E45F0030D7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12EA03E31D12297C0030D7B2 /* dropofflocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dropofflocation.json; sourceTree = "<group>"; };
-		12EA03E51D1229810030D7B2 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		12EA03E31D12297C0030D7B2 /* dropofflocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dropofflocation.json; path = ../dropofflocation.json; sourceTree = "<group>"; };
+		12EA03E51D1229810030D7B2 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = events.json; path = ../events.json; sourceTree = "<group>"; };
 		1AE58FE3C644F8439FC8C6E9 /* Pods-SyncCoredataAlamofireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncCoredataAlamofireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyncCoredataAlamofireTests/Pods-SyncCoredataAlamofireTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2169BAC700E17D026AFA550C /* Pods-SyncCoredataAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncCoredataAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyncCoredataAlamofire/Pods-SyncCoredataAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		6EC6B4CCC59B66FD91857A70 /* Pods-SyncCoredataAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncCoredataAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyncCoredataAlamofire/Pods-SyncCoredataAlamofire.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,8 +78,6 @@
 				12EA03BF1D10E45F0030D7B2 /* SyncCoredataAlamofire */,
 				12EA03D71D10E45F0030D7B2 /* SyncCoredataAlamofireTests */,
 				12EA03BE1D10E45F0030D7B2 /* Products */,
-				12EA03E51D1229810030D7B2 /* events.json */,
-				12EA03E31D12297C0030D7B2 /* dropofflocation.json */,
 				45D7C3FEE1C2610123ADE7AE /* Pods */,
 				238330BEE1EBC865C0C9FE16 /* Frameworks */,
 			);
@@ -100,6 +98,8 @@
 				12EA03C01D10E45F0030D7B2 /* AppDelegate.swift */,
 				12EA03C21D10E45F0030D7B2 /* ViewController.swift */,
 				12EA03C41D10E45F0030D7B2 /* Main.storyboard */,
+				12EA03E51D1229810030D7B2 /* events.json */,
+				12EA03E31D12297C0030D7B2 /* dropofflocation.json */,
 				12EA03CA1D10E45F0030D7B2 /* Assets.xcassets */,
 				12EA03CC1D10E45F0030D7B2 /* LaunchScreen.storyboard */,
 				12EA03CF1D10E45F0030D7B2 /* Info.plist */,

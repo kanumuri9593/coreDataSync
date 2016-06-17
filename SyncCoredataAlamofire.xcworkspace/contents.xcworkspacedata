@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Event+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Event.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Calendar+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Calendar.swift">
+   </FileRef>
+   <FileRef
+      location = "group:DropOff+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:DropOff.swift">
+   </FileRef>
+   <FileRef
       location = "group:SyncCoredataAlamofire.xcodeproj">
    </FileRef>
    <FileRef
